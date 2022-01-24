@@ -1,9 +1,9 @@
 ## What this does
 Analysis Example
-Check if point is inside a geofence
+Delete data from devices in assynchronous way
 
-This analysis use geofences to control the area that your devices are in.
-Based on the geofence your device is in, sends out an notification alert.
+This analysis is a custom data retention that you can use to delete data from your devices.
+It is required that you edit the code with the variables you want to delete and the filter for the devices that must be applied.
 
 `npm install`<br>
 `node analysis.js`
